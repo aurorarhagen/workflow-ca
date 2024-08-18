@@ -12,6 +12,7 @@
     "test-unit": "jest",
     "test:e2e": "npm run test-e2e",
     "test-e2e": "cypress open",
+    "test-e2e-cli": "cypress run",
     "prepare": "husky install"
   },
   "keywords": [],
