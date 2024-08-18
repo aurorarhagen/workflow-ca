@@ -9,7 +9,9 @@
     "lint": "eslint src/**/*.js",
     "format": "prettier --write .",
     "test": "npm run test-unit",
-    "test-unit": "jest"    
+    "test-unit": "jest",
+    "test:e2e": "npm run test-e2e",
+    "test-e2e": "cypress open"   
   },
   "keywords": [],
   "author": "Noroff",
